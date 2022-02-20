@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Loopstudios landing page</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/media_queries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <div class="main-container">
+      <header>
+
+        <div class="navbar">
+
+          <div class="navbar-brand">
+            <a href="#"><img src="./assets/images/logo.svg" alt=""></a>
+          </div>
+
+          <nav class="navbar-nav" aria-label="Header nav">
+
+            <div class="mobile-nav-brand">
+              <a href="#"><img src="./assets/images/logo.svg" alt=""></a>
+              <div id="close-btn"><img src="./assets/images/icon-close.svg" alt=""></div>
+            </div>
+
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+
+          </nav>
+
+          <div class="nav-toggler" id="open-btn">
+            <img src="./assets/images/icon-hamburger.svg" alt="">
+          </div>
+
+        </div>
+
+        <section class="banner">
+          <h1>Immersive experiences that deliver</h1>
+        </section>
+
+      </header>
+
+      <main>
+        <section class="about" id="about">
+          <div class="img-box">
+            <img src="./assets/images/desktop/image-interactive.jpg" alt="">
+          </div>
+
+          <div class="content-box">
+            <h2>The leader in interactive VR</h2>
+            <p>Founded in 2011, Loopstudio has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
+          </div>
+        </section>
+
+        <section class="product" id="product">
+          <h2>Our creations</h2>
+          <div class="product-grid">
+            <div class="product-card">
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/images/mobile/image-deep-earth.jpg">
+                <source media="(min-width: 577px)" srcset="./assets/images/desktop/image-deep-earth.jpg">
+                <img src="./assets/images/desktop/image-deep-earth.jpg" alt="">
+              </picture>
+
+              <h3>Deep <br> earth</h3>
+            </div>
+            
+            <div class="product-card">
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/images/mobile/image-night-arcade.jpg">
+                <source media="(min-width: 577px)" srcset="./assets/images/desktop/image-night-arcade.jpg">
+                <img src="./assets/images/desktop/image-night-arcade.jpg" alt="">
+              </picture>
+
+              <h3>Night <br> Arcade</h3>
+            </div>
+
+            <div class="product-card">
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/images/mobile/image-soccer-team.jpg">
+                <source media="(min-width: 577px)" srcset="./assets/images/desktop/image-soccer-team.jpg">
+                <img src="./assets/images/desktop/image-soccer-team.jpg" alt="">
+              </picture>
+
+              <h3>Soccer <br> team VR</h3>
+            </div>
+
+            <div class="product-card">
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/images/mobile/image-grid.jpg">
+                <source media="(min-width: 577px)" srcset="./assets/images/desktop/image-grid.jpg">
+                <img src="./assets/images/desktop/image-grid.jpg" alt="">
+              </picture>
+
+              <h3>The <br> grid</h3>
+            </div>
+
+            <div class="product-card">
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/images/mobile/image-from-above.jpg">
+                <source media="(min-width: 577px)" srcset="./assets/images/desktop/image-from-above.jpg">
+                <img src="./assets/images/desktop/image-from-above.jpg" alt="">
+              </picture>
+
+              <h3>From up <br> above VR</h3>
+            </div>
+
+            <div class="product-card">
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/images/mobile/image-pocket-borealis.jpg">
+                <source media="(min-width: 577px)" srcset="./assets/images/desktop/image-pocket-borealis.jpg">
+                <img src="./assets/images/desktop/image-pocket-borealis.jpg" alt="">
+              </picture>
+
+              <h3>Pocket <br> borealis</h3>
+            </div>
+
+            <div class="product-card">
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/images/mobile/image-curiosity.jpg">
+                <source media="(min-width: 577px)" srcset="./assets/images/desktop/image-curiosity.jpg">
+                <img src="./assets/images/desktop/image-curiosity.jpg" alt="">
+              </picture>
+
+              <h3>The <br> curiosity</h3>
+            </div>
+
+            <div class="product-card">
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/images/mobile/image-fisheye.jpg">
+                <source media="(min-width: 577px)" srcset="./assets/images/desktop/image-fisheye.jpg">
+                <img src="./assets/images/desktop/image-fisheye.jpg" alt="">
+              </picture>
+
+              <h3>Make it <br> fisheye</h3>
+            </div>
+
+          </div>
+
+          <a href="#" class="btn-primary">SEE ALL</a>
+
+
+        </section>
+
+      </main>
+
+
+      <footer>
+        <div class="footer-left">
+          <div class="footer-brand">
+            <a href="#"><img src="./assets/images/logo.svg" alt=""></a>
+          </div>
+          <nav class="footer-nav" aria-label="Footer nav">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-right">
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+          <p class="copyright">&copy; 2021 Loopstudios. All rights reserved</p>
+        </div>
+      </footer>
+
+
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-fzff82+8pzHnwA1mQ0dzz9/E0B+ZRizq08yZfya66INZBz86qKTCt9MLU0NCNIgaMJCgeyhujhasnFUsYMsi0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </body>
+</html>
